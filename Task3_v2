@@ -1,0 +1,7 @@
+const noProtObject = function ()
+    {Object.create(null)
+        console.log(noProtObject)}
+
+
+noProtObject()
+
